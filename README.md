@@ -1,5 +1,9 @@
 # derivative-calculator
 
+
+
+
+
 Calculates the symbolic derivative of the given function. It parses the expression first using recursive descent parsing
 and then recusrsively calculates the derivative. It uses `MathJax` to render mathematical expressions written in `AsciiMath`
 
@@ -27,3 +31,16 @@ So, `d/dx a*b` means  `d/dx (a*b)`, but `d/dx a + b` means `(d/dx a) + b`. also 
 So, `a*b/c/d` means `((a*b)/c)/d`, and `a^b^c` means `a^(b^c)`.
 
 In case of power of trigonometric functions, you should provide input like `(sin(x))^3`, `sin^3(x)` will not work.
+
+
+
+
+# screens
+
+
+![first](https://user-images.githubusercontent.com/94376325/148031608-0ba772e5-1c4d-4518-b7c8-f080546e8b78.png)
+
+
+![second](https://user-images.githubusercontent.com/94376325/148031471-947fff9e-a573-4bfb-ba86-72a7900c5145.png)
+
+![third](https://user-images.githubusercontent.com/94376325/148031479-3947abcf-a6e1-4db0-b9aa-53f044770310.png)
